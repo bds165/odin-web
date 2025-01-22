@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  font-family: 'Roboto';
+  font-weight: bolder;
+}
+
+.container1 {
+  background-color: #1F2937;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 16px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 24px;
+  color: #F9FAF8;
+}
+.container1sub {
+  display: flex;
+  flex-direction: row;
+}
+.contentleft, .contentright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contentright{
+  width:300px;
+  height: auto;
+  padding: 10px;
+}
+
+
+.left a {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+.right a {
+  color: #E5E7EB;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.wordstop {
+  color: #F9FAF8;
+  font-weight: 900;
+  font-size: 48px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.signupbutton {
+  background-color: #3b82f6; /* Blue button */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-align: center;
+  width: fit-content;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.subtext {
+  font-size: smaller;
+  color: darkgrey;
+  font-weight: lighter;
+}
+
